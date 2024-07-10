@@ -261,3 +261,92 @@ body {
 .inspiration-video iframe {
   border-radius: 16px;
 }
+
+/* Current Target Section Style */
+.current-target {
+  width: 1140px;
+  height: 463px;
+  margin: 0 auto;
+  margin-top: 149px;
+  /* border: 1px solid black; */
+}
+.current-target-text {
+  width: 852px;
+  height: 115px;
+  margin: 0 auto;
+  /* border: 1px solid red; */
+}
+.current-target-text p {
+  margin-top: 30px;
+}
+.current-target-cards {
+  width: 1140px;
+  height: 300px;
+  margin: 0 auto;
+  margin-top: 48px;
+  /* border: 1px solid yellow; */
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 364px;
+  height: 300px;
+  padding: 40px;
+  border-radius: 16px;
+  /* border: 1px solid green; */
+}
+.card-title-image {
+  height: 56px;
+  width: 56px;
+}
+
+.card-title {
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 24px;
+  font-weight: 800;
+  line-height: 36px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.card-content {
+  margin-top: 24px;
+}
+.card-text {
+  margin-top: 8px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  letter-spacing: 0%;
+  text-align: left;
+  opacity: 0.7;
+}
+.card-link {
+  margin-top: 24px;
+  color: rgb(13, 19, 33);
+  font-family: Azeret Mono;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0%;
+  text-align: left;
+  text-decoration-line: underline;
+  cursor: pointer;
+}
+.card-link a {
+  margin-top: 24px;
+  color: rgb(13, 19, 33);
+  text-decoration: none;
+}
+.card-1 {
+  background: rgba(255, 76, 30, 0.05);
+}
+.card-2 {
+  background: rgba(0, 76, 232, 0.05);
+}
+.card-3 {
+  background: rgba(255, 223, 0, 0.05);
+}
