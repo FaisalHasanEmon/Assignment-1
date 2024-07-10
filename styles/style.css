@@ -144,7 +144,7 @@ body {
 .why-web-dep {
   width: 1140px;
   height: 1395px;
-  /* border: 1px solid black;  */
+  /* border: 1px solid black; */
   margin: 0 auto;
   margin-top: 74px;
 }
@@ -231,4 +231,33 @@ body {
 }
 .why-web-dep-row-4 .row4-c1 p {
   margin-top: 35px;
+}
+
+/* My Inspiration Part Starts */
+.inspiration {
+  width: 1140px;
+  height: 797px;
+  margin: 0 auto;
+  /* border: 1px solid black; */
+}
+.inspiration-text {
+  width: 852px;
+  height: 125px;
+  /* border: 1px solid red; */
+  margin: 0 auto;
+}
+.inspiration-text p {
+  margin-top: 16px;
+}
+.inspiration-video {
+  margin: 0 auto;
+  margin-top: 38px;
+  width: 1140px;
+  height: 614px;
+  padding: 32px;
+  border: 1px solid rgba(13, 19, 33, 0.2);
+  border-radius: 16px;
+}
+.inspiration-video iframe {
+  border-radius: 16px;
 }
